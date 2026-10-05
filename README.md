@@ -19,7 +19,6 @@
 
 A **bare-metal C99 driver library** for the **STM32F103C6 (ARM Cortex-M3)**, built from scratch using direct register-level programming.
 
-No STM32 HAL. No LL. No Arduino.
 
 ---
 
