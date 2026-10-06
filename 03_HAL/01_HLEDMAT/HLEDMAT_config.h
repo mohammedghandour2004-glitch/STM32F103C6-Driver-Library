@@ -1,0 +1,158 @@
+/*
+ * <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< HLEDMAT_CONFIG.h >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ *
+ * Author      : MOHAMMED GHANDOUR
+ * Target      : STM32F103C6
+ * Layer       : 03_HAL
+ * Component   : HLEDMAT_CONFIG
+ * Description : This file contains the 8x8 monochrome LED matrix control functionality.
+ */
+
+#ifndef HLEDMAT_CONFIG_H
+#define HLEDMAT_CONFIG_H
+
+#include "../../02_MCAL/02_DIO/DIO_interface.h"
+
+/* COUNT sentinels deliberately keep the default wiring unconfigured. */
+
+#ifndef HLEDMAT_ROW_0_PORT
+#define HLEDMAT_ROW_0_PORT DIO_PORT_COUNT
+#endif
+
+#ifndef HLEDMAT_ROW_0_PIN
+#define HLEDMAT_ROW_0_PIN DIO_PIN_COUNT
+#endif
+
+#ifndef HLEDMAT_ROW_1_PORT
+#define HLEDMAT_ROW_1_PORT DIO_PORT_COUNT
+#endif
+
+#ifndef HLEDMAT_ROW_1_PIN
+#define HLEDMAT_ROW_1_PIN DIO_PIN_COUNT
+#endif
+
+#ifndef HLEDMAT_ROW_2_PORT
+#define HLEDMAT_ROW_2_PORT DIO_PORT_COUNT
+#endif
+
+#ifndef HLEDMAT_ROW_2_PIN
+#define HLEDMAT_ROW_2_PIN DIO_PIN_COUNT
+#endif
+
+#ifndef HLEDMAT_ROW_3_PORT
+#define HLEDMAT_ROW_3_PORT DIO_PORT_COUNT
+#endif
+
+#ifndef HLEDMAT_ROW_3_PIN
+#define HLEDMAT_ROW_3_PIN DIO_PIN_COUNT
+#endif
+
+#ifndef HLEDMAT_ROW_4_PORT
+#define HLEDMAT_ROW_4_PORT DIO_PORT_COUNT
+#endif
+
+#ifndef HLEDMAT_ROW_4_PIN
+#define HLEDMAT_ROW_4_PIN DIO_PIN_COUNT
+#endif
+
+#ifndef HLEDMAT_ROW_5_PORT
+#define HLEDMAT_ROW_5_PORT DIO_PORT_COUNT
+#endif
+
+#ifndef HLEDMAT_ROW_5_PIN
+#define HLEDMAT_ROW_5_PIN DIO_PIN_COUNT
+#endif
+
+#ifndef HLEDMAT_ROW_6_PORT
+#define HLEDMAT_ROW_6_PORT DIO_PORT_COUNT
+#endif
+
+#ifndef HLEDMAT_ROW_6_PIN
+#define HLEDMAT_ROW_6_PIN DIO_PIN_COUNT
+#endif
+
+#ifndef HLEDMAT_ROW_7_PORT
+#define HLEDMAT_ROW_7_PORT DIO_PORT_COUNT
+#endif
+
+#ifndef HLEDMAT_ROW_7_PIN
+#define HLEDMAT_ROW_7_PIN DIO_PIN_COUNT
+#endif
+
+#ifndef HLEDMAT_COLUMN_0_PORT
+#define HLEDMAT_COLUMN_0_PORT DIO_PORT_COUNT
+#endif
+
+#ifndef HLEDMAT_COLUMN_0_PIN
+#define HLEDMAT_COLUMN_0_PIN DIO_PIN_COUNT
+#endif
+
+#ifndef HLEDMAT_COLUMN_1_PORT
+#define HLEDMAT_COLUMN_1_PORT DIO_PORT_COUNT
+#endif
+
+#ifndef HLEDMAT_COLUMN_1_PIN
+#define HLEDMAT_COLUMN_1_PIN DIO_PIN_COUNT
+#endif
+
+#ifndef HLEDMAT_COLUMN_2_PORT
+#define HLEDMAT_COLUMN_2_PORT DIO_PORT_COUNT
+#endif
+
+#ifndef HLEDMAT_COLUMN_2_PIN
+#define HLEDMAT_COLUMN_2_PIN DIO_PIN_COUNT
+#endif
+
+#ifndef HLEDMAT_COLUMN_3_PORT
+#define HLEDMAT_COLUMN_3_PORT DIO_PORT_COUNT
+#endif
+
+#ifndef HLEDMAT_COLUMN_3_PIN
+#define HLEDMAT_COLUMN_3_PIN DIO_PIN_COUNT
+#endif
+
+#ifndef HLEDMAT_COLUMN_4_PORT
+#define HLEDMAT_COLUMN_4_PORT DIO_PORT_COUNT
+#endif
+
+#ifndef HLEDMAT_COLUMN_4_PIN
+#define HLEDMAT_COLUMN_4_PIN DIO_PIN_COUNT
+#endif
+
+#ifndef HLEDMAT_COLUMN_5_PORT
+#define HLEDMAT_COLUMN_5_PORT DIO_PORT_COUNT
+#endif
+
+#ifndef HLEDMAT_COLUMN_5_PIN
+#define HLEDMAT_COLUMN_5_PIN DIO_PIN_COUNT
+#endif
+
+#ifndef HLEDMAT_COLUMN_6_PORT
+#define HLEDMAT_COLUMN_6_PORT DIO_PORT_COUNT
+#endif
+
+#ifndef HLEDMAT_COLUMN_6_PIN
+#define HLEDMAT_COLUMN_6_PIN DIO_PIN_COUNT
+#endif
+
+#ifndef HLEDMAT_COLUMN_7_PORT
+#define HLEDMAT_COLUMN_7_PORT DIO_PORT_COUNT
+#endif
+
+#ifndef HLEDMAT_COLUMN_7_PIN
+#define HLEDMAT_COLUMN_7_PIN DIO_PIN_COUNT
+#endif
+
+#ifndef HLEDMAT_ROW_ACTIVE_LEVEL
+#define HLEDMAT_ROW_ACTIVE_LEVEL DIO_LEVEL_HIGH
+#endif
+
+#ifndef HLEDMAT_COLUMN_ON_LEVEL
+#define HLEDMAT_COLUMN_ON_LEVEL DIO_LEVEL_LOW
+#endif
+
+#ifndef HLEDMAT_OUTPUT_SPEED
+#define HLEDMAT_OUTPUT_SPEED DIO_SPEED_2MHZ
+#endif
+
+#endif
